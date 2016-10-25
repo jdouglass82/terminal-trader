@@ -42,3 +42,5 @@ class Menu:
 
 menu = Menu()
 menu.create_user()
+
+# something

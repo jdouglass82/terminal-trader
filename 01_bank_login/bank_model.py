@@ -42,3 +42,4 @@ class Models:
 			INSERT INTO users ("name", "password", "accounts_id") VALUES (newname,newpassword,acc)
 
 		""")
+		# something

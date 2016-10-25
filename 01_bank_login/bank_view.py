@@ -17,4 +17,6 @@ class Views:
  	def newuser(self):
  		name = input("Type your username: ")
  		password = input("Type your password: ")
- 		return(name,password)
+ 		return(name,password
+
+ 	# something
