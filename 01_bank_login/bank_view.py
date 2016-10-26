@@ -1,22 +1,28 @@
 class Views:
 
- 	def __init__(self):
- 		pass
+    def __init__(self):
+        pass
 
- 	def account_request(self):
+    def check_user(self):
+        user_name = input("Please enter your user name: ")
+        password = input("Please enter your password: ")
+        return user_name, password
 
- 		account_number = input("Please enter your account number: ")
+    def new_user(self):
+        name = input("Enter a new username: ")
+        password = input("Enter a user password: ")
+        return(name, password)
 
- 		password = input("Please enter your password: ")
+    def account_request(self):
 
- 		return account_number, password
+        # this should be name
+        user_name = input("Please enter your user name: ")
+        password = input("Please enter your password: ")
+        return user_name, password
 
- 	def error(self):
- 		print("ERROR")
+    def error(self):
+        print("ERROR")
 
- 	def newuser(self):
- 		name = input("Type your username: ")
- 		password = input("Type your password: ")
- 		return(name,password
 
- 	# something
+
+
